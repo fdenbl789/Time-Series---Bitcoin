@@ -35,4 +35,5 @@ https://docs.google.com/presentation/d/1ZgO0r6g-MSQGYJCV7vbbpmy7CSdD6A2ibN52b9_2
 ## References for Images in Presentation (in order):
 https://analyticsindiamag.com/all-you-need-to-know-about-the-2018-cryptocurrency-slump/
 https://www.danielstrading.com/2017/12/12/bitcoin-commodity-currency
+
 https://www.finextra.com/the-long-read/40/bitcoin-halving-what-does-this-mean-and-what-will-its-effect-be

@@ -4,7 +4,7 @@
 I am building time series models to see how well they can predict Bitcoin prices.
 
 ## Objective:
-To show an employer or client whether an ARMA, ARIMA or FB Prophet model is useful to predict Bitcoin prices.
+To show an investment advisor or client whether an ARMA, ARIMA or FB Prophet model is useful to predict Bitcoin prices.
 
 ## The Dataset:
 The dataset consisted of daily Bitcoin prices from 2015 to 2019, sourced with an API call from YahooFinance. In my first round of modeling, 2015-2018 were used as training set while 2019 was used as the validation set. In my second round of testing, the whole 5 years were used as the training set(2015-2019) and January 2020 was used as the validation set.

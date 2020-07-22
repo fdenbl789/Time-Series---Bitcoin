@@ -1,6 +1,6 @@
 # Time Series Analysis with Bitcoin
 
-<img src="images/CASIO%20duck%20curve%202020-06-29%20at%203.16.36%20PM.png" width="650">
+<img src="images/Bitcoin%20pic.jpeg" width="650">
 
 ## Introduction:
 I am building time series models to see how well they can predict Bitcoin prices.
@@ -10,6 +10,8 @@ To show an investment advisor or client whether an ARMA, ARIMA or FB Prophet mod
 
 ## The Dataset:
 The dataset consisted of daily Bitcoin prices from 2015 to 2019, sourced with an API call from YahooFinance. In my first round of modeling, 2015-2018 were used as training set while 2019 was used as the validation set. In my second round of testing, the whole 5 years were used as the training set(2015-2019) and January 2020 was used as the validation set.
+
+<img src="images/" width="650">
 
 ## Skills Required to Complete:
 The skills used to complete this project consisted of sourcing data by API, preprocessing data, EDA, transforming data to obtain stationarity, running the Autocorrelation Function and Partial Autocorrelation Function and selecting a model based on RMSE scores and using Python to make visualizations with Pandas.

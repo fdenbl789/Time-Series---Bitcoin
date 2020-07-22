@@ -24,17 +24,19 @@ There are 2 notebooks posted on Github. The first notebook, 'Mod_4 Project.ipynb
 2. What are the shortcomings of the model?
 
 ## Modeling Results (RMSE):
+
 First round:
  1. ARMA 4,762
  2. ARIMA 2,953
  3. FB Prophet 5,145
+ 
 Second round:
  1. ARIMA 1,319
  2. FB Prophet 1,642
  
  <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
  
- <img src="images/" width="650">
+ <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
 
 ## Recommendations:
 The ARIMA model performed the best in both rounds. However, I would not recommend using this model because it is a linear model. Also, the Bitcoin prices were a 'random walk' and therefore an ARIMA model would be useless.

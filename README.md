@@ -32,11 +32,10 @@ First round:
  
 Second round:
  1. ARIMA 1,319
+ <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
+ 
  2. FB Prophet 1,642
- 
- <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
- 
- <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
+ <img src="images/2nd%20round%20-%20FB%20Prophet.png" width="650">
 
 ## Recommendations:
 The ARIMA model performed the best in both rounds. However, I would not recommend using this model because it is a linear model. Also, the Bitcoin prices were a 'random walk' and therefore an ARIMA model would be useless.

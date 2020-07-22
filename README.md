@@ -32,7 +32,7 @@ Second round:
  1. ARIMA 1,319
  2. FB Prophet 1,642
  
- <img src="images/" width="650">
+ <img src="images/2nd%20round%20-%20ARIMA.png" width="650">
  
  <img src="images/" width="650">
 

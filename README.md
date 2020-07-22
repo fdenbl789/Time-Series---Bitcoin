@@ -1,5 +1,7 @@
 # Time Series Analysis with Bitcoin
 
+<img src="images/CASIO%20duck%20curve%202020-06-29%20at%203.16.36%20PM.png" width="650">
+
 ## Introduction:
 I am building time series models to see how well they can predict Bitcoin prices.
 

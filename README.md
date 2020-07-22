@@ -11,7 +11,7 @@ To show an investment advisor or client whether an ARMA, ARIMA or FB Prophet mod
 ## The Dataset:
 The dataset consisted of daily Bitcoin prices from 2015 to 2019, sourced with an API call from YahooFinance. In my first round of modeling, 2015-2018 were used as training set while 2019 was used as the validation set. In my second round of testing, the whole 5 years were used as the training set(2015-2019) and January 2020 was used as the validation set.
 
-<img src="images/" width="650">
+<img src="images/Graph%20of%20prices%2C%20rolling%20mean%20and%20rolling%20std.png" width="650">
 
 ## Skills Required to Complete:
 The skills used to complete this project consisted of sourcing data by API, preprocessing data, EDA, transforming data to obtain stationarity, running the Autocorrelation Function and Partial Autocorrelation Function and selecting a model based on RMSE scores and using Python to make visualizations with Pandas.
@@ -31,6 +31,10 @@ First round:
 Second round:
  1. ARIMA 1,319
  2. FB Prophet 1,642
+ 
+ <img src="images/" width="650">
+ 
+ <img src="images/" width="650">
 
 ## Recommendations:
 The ARIMA model performed the best in both rounds. However, I would not recommend using this model because it is a linear model. Also, the Bitcoin prices were a 'random walk' and therefore an ARIMA model would be useless.

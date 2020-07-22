@@ -21,12 +21,21 @@ There are 2 notebooks posted on Github. The first notebook, 'Mod_4 Project.ipynb
 1. Which model performed best and why?
 2. What are the shortcomings of the model?
 
+## Modeling Results (RMSE):
+First round:
+ 1. ARMA 4,762
+ 2. ARIMA 2,953
+ 3. FB Prophet 5,145
+Second round:
+ 1. ARIMA 1,319
+ 2. FB Prophet 1,642
+
+## Recommendations:
+The ARIMA model performed the best in both rounds. However, I would not recommend using this model because it is a linear model. Also, the Bitcoin prices were a 'random walk' and therefore an ARIMA model would be useless.
+
 ## Future Steps:
 1. Try to improve the ARIMA model by combining it with a sentiment analysis model to add exogenous variables.
 2. Build a long short-term memory neural network to try and make better predictions.
-
-## Recommendations:
-The best performing model was the ARIMA model. For the Janury 2020 validation set, it had an RMSE of 1,319. However, I would not recommend using this model because it is a linear model. Also, the Bitcoin prices were a 'random walk' and therefore an ARIMA model would be useless.
 
 ## Presentation Link:
 https://docs.google.com/presentation/d/1ZgO0r6g-MSQGYJCV7vbbpmy7CSdD6A2ibN52b9_22-c/edit?usp=sharing
